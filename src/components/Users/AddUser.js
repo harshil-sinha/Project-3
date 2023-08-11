@@ -51,7 +51,7 @@ const AddUser = props =>{
         <label htmlFor='age'>Age (Years)</label>
         <input type="number"  id='age' ref={ageInputRef}/>
         <label htmlFor='college'>College Name</label>
-        <input type="text"  id='college' ref={collegeInputRef}/>
+        <input type="text"  id='college' ref={collegeInputRef} required/>
         <Button type='submit'>Add User</Button>
     </form>
     </Card>
